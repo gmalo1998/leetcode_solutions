@@ -1,0 +1,13 @@
+name: automatic-deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Workflow triggered successfully
+        run: echo "Workflow triggered"
