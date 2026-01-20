@@ -28,8 +28,6 @@ for (let i = 0; i < arr[0].length; i++) {
 }
 
 */
-
-
-
-
+console.log(LongestCommonPrefix(["flower","flow","flight"])); // "fl"
+console.log(LongestCommonPrefix(["dog","racecar","car"])); // ""    
 console.log(LongestCommonPrefix([])); // "fl"
